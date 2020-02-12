@@ -22,7 +22,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
   	max-width:100%; /*this is saying you can never be bigger than your parent*/
-  	/* border:1px solid grey; */
+  	border:1px solid grey;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -70,7 +70,6 @@ body {
 	margin: 1% 5%;
 }
 h1 {
-	font-size: 6em;
 	text-align: center;
 }
 h1, h2, h3, h4, h5, p {
@@ -79,57 +78,29 @@ h1, h2, h3, h4, h5, p {
 
 
 /* Header */
-#navbar {
-	display: inline-block;
-
-	/* position: sticky; */
-	/* background-color: aqua; */
-	color: lightgrey;
-}
-nav img {
-	left: 0px;
-}
-nav {
-	display: inline-block;
-	text-align: center;
-}
-nav a {
-	display: inline-block;
-	margin: auto;
+.main {
 	width: 100%;
 }
-
-header {
-	display: inline-block;
-	width: 100%;
-}
-.logo{
-	display: inline-block;
-	
-}
-
-
 .left-side {
-	width:50%;
+	width:49%;
+	display: inline-block;
+}
+.right-side {
+	width: 49%;
 	display: inline-block;
 }
 button {
-	display: block;
+	display: inline-block;
 	margin: auto;
+	width: 100%;
 }
-h1 {
-	margin: auto;
-}
-img {
-	margin: auto;
-}
-
 
 /* Contents */
 .above-image section{
 	margin: 3% auto;
 	width: 49%;
 	display: inline-block;
+	
 }
 .below-image section{
 	margin: 3% auto;
@@ -150,13 +121,16 @@ hr {
 
 /* footer */
 footer{
-	margin-top: 3% auto;
+	margin-top: 3%;
 	display: inline-block;
 	width: 100%;
 }
 address {
 	width: 20%;
 }
-small {
+
+.copyright {
 	text-align: center;
+	width: 100%;
+	padding: 10%;
 }
