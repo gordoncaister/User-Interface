@@ -18,10 +18,12 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	box-sizing:border-box;
+  	max-width:100%; /*this is saying you can never be bigger than your parent*/
+  	border:1px solid grey;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -64,3 +66,4 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
