@@ -62,20 +62,41 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	
 }
 
 /* Your code starts here! */
+contents-container {
+	margin: 0 10%;
+}
+h1 {
+	font-size: 6em;
+	text-align: center;
+}
+h1, h2, h3, h4, h5, p {
+	display: inline-block;
+}
+
+.above-image section{
+	width: 49%;
+	display: inline-block;
+}
+
 .logo{
 	display: inline-block;
 }
 
 .navbar {
 	display: inline-block;
+	width: 100%;
+	position: sticky;
 }
 
-header img {
+
+header {
 	display: inline-block;
+	width: 100%;
 }
 
 hr {
