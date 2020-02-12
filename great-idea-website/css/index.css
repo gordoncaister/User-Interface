@@ -67,8 +67,8 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-contents-container {
-	margin: 0 10%;
+body {
+	margin: 1% 5%;
 }
 h1 {
 	font-size: 6em;
@@ -78,8 +78,34 @@ h1, h2, h3, h4, h5, p {
 	display: inline-block;
 }
 
+
+header {
+	display: inline-block;
+	width: 100%;
+}
+
+/* Nav */
+.navbar {
+	display: inline-block;
+	position: sticky;
+	width: 100%;
+	background-color: aqua;
+}
+nav {
+	display: inline-block;
+	width: 80%;
+}
+nav a {
+	margin: auto 5%;
+}
+
+/* Contents */
 .above-image section{
 	width: 49%;
+	display: inline-block;
+}
+.below-image section{
+	width: 33%;
 	display: inline-block;
 }
 
@@ -87,19 +113,10 @@ h1, h2, h3, h4, h5, p {
 	display: inline-block;
 }
 
-.navbar {
-	display: inline-block;
-	width: 100%;
-	position: sticky;
-}
-
-
-header {
-	display: inline-block;
-	width: 100%;
-}
-
 hr {
 	color: grey;
 	border: 1px solid grey;
 }
+
+/* footer */
+
