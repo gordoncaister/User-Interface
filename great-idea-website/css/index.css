@@ -66,4 +66,19 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.logo{
+	display: inline-block;
+}
 
+.navbar {
+	display: inline-block;
+}
+
+header img {
+	display: inline-block;
+}
+
+hr {
+	color: grey;
+	border: 1px solid grey;
+}
