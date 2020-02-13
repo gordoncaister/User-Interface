@@ -78,6 +78,16 @@ h1, h2, h3, h4, h5, p {
 	display: inline-block;
 }
 /* nav */
+#navbar {
+	width: 100%;
+	display: inline-block;
+	background-color: teal;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 0;
+
+}
 .logo {
 	float: right;
 	height: 40px;
@@ -99,6 +109,7 @@ nav a{
 /* Header */
 .main {
 	width: 100%;
+	margin-top: 100px;
 }
 .left-side {
 	width:59%;
